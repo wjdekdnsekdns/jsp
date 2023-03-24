@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	button {
+	
+}
+</style>
+</head>
+<body>
+	<!-- 
+		signin.html 요청을 하면 화면 그리는 담당
+		1. 요청
+		form 태그를 method 속성, action 속성에 대해 알아보고
+		name 값과 password 값을 보냏 수 있는 화면을 구성하시오
+		
+		2. 버튼을 누르면 연산 처리를 할 suvlet 객체를 만들어 주세요
+		method 방식 : post
+		서버 콘솔창에 넘겨 받은 데이터를 출력 하시오
+		
+		http://localhost:8080/myblog/signin.html
+		http://localhost:8080/myblog/servlet
+	 -->
+	 
+	 <h1>연습 문제</h1>
+	 <form action="/myblog/servlet"  method = "POST" >
+	 	<label>name : <input type = "text"  name = "name"> </label>
+	 	<label>password : <input type = "password"  name = "password"> </label>
+	 	<button >버어어어어어튼</button>
+	 	<input type="button"  value="버튼 전송">
+	 	<input type="submit" value="서브밋전송">
+	 </form>
+	 
+	 
+</body>
+</html>
